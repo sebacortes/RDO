@@ -6,7 +6,7 @@ Basado en las ciudades de nordock Re hecho de 0
 
 - Fernando "Zero" - Scripts - [Beliglath](https://github.com/Beliglath)
 - Gustavo "Inquisidor" - Scripts - [readren](https://github.com/readren)
-- Juan Ingacio "Dragoncin" - Scripts [juandopazo](https://github.com/juandopazo)
+- Juan Ignacio "Dragoncin" - Scripts [juandopazo](https://github.com/juandopazo)
 - Marcos "Lobofiel" - Mapeo - lobofiel@hotmail.com
 - Martin "Ramstin" - Ambientacion, correcciones - martinferreyra2000@hotmail.com 
 - Nico "Ohin" - Criaturas - nicolas_pilgrim@hotmail.com
