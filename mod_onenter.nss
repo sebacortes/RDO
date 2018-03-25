@@ -76,6 +76,9 @@ void main()
         // Iniciar el LetoScript
         Leto_onEnter( oPC );
 
+ 
+        WriteTimestampedLogEntry( "Ingreso: "+GetPCPlayerName(oPC)+" con cdkey: "+sCd ); 
+
         // Esto impide problemas con el inventario reducido al momento exacto de loguear
         // (Al loguear se adquieren todos los items de golpe y eso a veces genera perdida de items)
         InventarioReducido_onEnter(oPC);
@@ -204,12 +207,6 @@ void main()
         DelayCommand(4.0, Idiomas_accionAprenderNuevosIdiomas( oPC ));
 
     } else if (GetIsDM(oPC)) {
-
-        if (!GetIsAllowedDM(oPC)) {
-            if (GetIsObjectValid(oPC)) BootPC(oPC);
-            WriteTimestampedLogEntry(sCd+" "+sIP+" "+"ENTRA ILEGAL DE DM");
-            SendMessageToAllDMs(sCd+" "+sIP+" "+"ENTRA ILEGAL DE DM");
-        }
 
         darVaritas( oPC );
 
