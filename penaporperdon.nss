@@ -6,6 +6,8 @@ de la penitencia en el fugue.
 ******************************************************************************/
 #include "SPC_inc"
 
+const int Muerte_MAX_LVL_IGNORAR_PENA        = 5;
+
 /////////////////////////////////////////////////////////////////////////////
 /////////////////////// private functions ///////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////
@@ -103,6 +105,13 @@ void ajustarPenaEspera( string pcId, object oPC )
     El resultado es guardado para ser usado la proxima vez que el sujeto muera.
     Nota: Se asume que 'sujeto' es un PJ. */
 {
+
+    // Para Levels menores de 6 no hay pena de Fugue.
+    int sujetoLvl = GetHitDice( oPC );
+    if (sujetoLvl <= Muerte_MAX_LVL_IGNORAR_PENA) {
+        return;
+    }
+
     int instanteActual = getTimeInMinutes();
 
     // obtener y actualizar instanteUltimoPerdon en la DB
@@ -141,7 +150,7 @@ int getPenaEspera( string pcId, object sujeto )
 {
     // Para Levels menores de 6 no hay pena de Fugue.
     int sujetoLvl = GetHitDice( sujeto );
-    if (sujetoLvl < 6) {
+    if (sujetoLvl <= Muerte_MAX_LVL_IGNORAR_PENA) {
         return 0;
     }
 
