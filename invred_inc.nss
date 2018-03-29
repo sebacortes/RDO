@@ -320,7 +320,7 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_CAPAS_PJ; mensaje = "capas";
                                        break;
         case BASE_ITEM_CLUB:           maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_DAGGER:         maximo = InvRed_MAXIMO_DAGAS;
                                        variableParaModificar = InvRed_CANTIDAD_DAGAS_PJ; mensaje = "dagas";
@@ -350,7 +350,7 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_ARMAS_2MANOS_PJ; mensaje = "armas grandes";
                                        break;
         case BASE_ITEM_HANDAXE:        maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_HEAVYCROSSBOW:  maximo = InvRed_MAXIMO_BALLESTAS;
                                        variableParaModificar = InvRed_CANTIDAD_BALLESTAS_PJ; mensaje = "ballestas";
@@ -377,10 +377,10 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_ARMAS_PRINCIPALES_PJ; mensaje = "armas principales";
                                        break;
         case BASE_ITEM_LIGHTHAMMER:    maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_LIGHTMACE:      maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_LONGBOW:        maximo = InvRed_MAXIMO_ARCOS;
                                        variableParaModificar = InvRed_CANTIDAD_ARCOS_PJ; mensaje = "arcos";
@@ -428,7 +428,7 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_ARROJADIZAS_PJ; mensaje = "armas arrojadizas";
                                        break;
         case BASE_ITEM_SICKLE:         maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_SMALLSHIELD:    maximo = InvRed_MAXIMO_ESCUDOS;
                                        variableParaModificar = InvRed_CANTIDAD_ESCUDOS_PJ; mensaje = "escudos";
@@ -620,7 +620,7 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_CAPAS_PJ; mensaje = "capas";
                                        break;
         case BASE_ITEM_CLUB:           maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_DAGGER:         maximo = InvRed_MAXIMO_DAGAS;
                                        variableParaModificar = InvRed_CANTIDAD_DAGAS_PJ; mensaje = "dagas";
@@ -650,7 +650,7 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_ARMAS_2MANOS_PJ; mensaje = "armas grandes";
                                        break;
         case BASE_ITEM_HANDAXE:        maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_HEAVYCROSSBOW:  maximo = InvRed_MAXIMO_BALLESTAS;
                                        variableParaModificar = InvRed_CANTIDAD_BALLESTAS_PJ; mensaje = "ballestas";
@@ -677,10 +677,10 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_ARMAS_PRINCIPALES_PJ; mensaje = "armas principales";
                                        break;
         case BASE_ITEM_LIGHTHAMMER:    maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_LIGHTMACE:      maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_LONGBOW:        maximo = InvRed_MAXIMO_ARCOS;
                                        variableParaModificar = InvRed_CANTIDAD_ARCOS_PJ; mensaje = "arcos";
@@ -728,7 +728,7 @@ if (GetLocalInt(oPC, ESTADO_INVENTARIO_REDUCIDO)==INVENTARIO_REDUCIDO_ACTIVADO &
                                        variableParaModificar = InvRed_CANTIDAD_ARROJADIZAS_PJ; mensaje = "armas arrojadizas";
                                        break;
         case BASE_ITEM_SICKLE:         maximo = InvRed_MAXIMO_ARMAS_PEQUENIAS;
-                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeï¿½as";
+                                       variableParaModificar = InvRed_CANTIDAD_ARMAS_PEQUENIAS_PJ; mensaje = "armas pequeñas";
                                        break;
         case BASE_ITEM_SMALLSHIELD:    maximo = InvRed_MAXIMO_ESCUDOS;
                                        variableParaModificar = InvRed_CANTIDAD_ESCUDOS_PJ; mensaje = "escudos";
