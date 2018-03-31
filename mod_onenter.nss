@@ -250,7 +250,7 @@ void prepararPersonajeNivel1( object oPC )
         if (GetLocalInt(oPC, STOP_ON_ENTER_STUFF)==FALSE)
         {
             Experience_poner( oPC, xpInicial );
-            GiveGoldToCreature(oPC, 4000);
+            GiveGoldToCreature(oPC, 6000);
         }
 
         // ALIGNMENT_EVIL
