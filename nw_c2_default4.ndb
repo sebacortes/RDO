@@ -1,0 +1,1243 @@
+NDB V1.0
+0000006 0000001 0000683 0000085 0000384
+n00 j_inc_debug
+n01 j_inc_constants
+n02 j_inc_other_ai
+n03 DM_inc
+n04 VNNPC_inc
+N05 nw_c2_default4
+s 03 vector
+sf f x
+sf f y
+sf f z
+f 00001bcc 00001bd4 004 v DebugActionSpeakByInt
+fp i
+fp o
+fp i
+fp s
+f ffffffff ffffffff 001 v DebugActionSpeak
+fp s
+f ffffffff ffffffff 000 s RULE_VERSION
+f ffffffff ffffffff 000 s AI_IM_HENCHMAN
+f ffffffff ffffffff 000 s COMBAT_FILE
+f ffffffff ffffffff 000 s FILE_WALK_WAYPOINTS
+f ffffffff ffffffff 000 s FILE_RE_SET_WEAPONS
+f ffffffff ffffffff 000 s FILE_DEATH_CLEANUP
+f ffffffff ffffffff 000 s FILE_HEARTBEAT_TALENT_BUFF
+f ffffffff ffffffff 000 s FILE_HEARTBEAT_LOOT
+f ffffffff ffffffff 000 s FILE_HEARTBEAT_ANIMATIONS
+f ffffffff ffffffff 000 s FILE_HEARTBEAT_WALK_TO_PC
+f ffffffff ffffffff 000 s FILE_DRAGON_WING_BUFFET
+f ffffffff ffffffff 000 s FILE_FLY_ATTACK
+f ffffffff ffffffff 000 s FILE_SPELLTRIGGER_START
+f ffffffff ffffffff 000 s AI_CUSTOM_AI_SCRIPT
+f ffffffff ffffffff 000 i iM10
+f ffffffff ffffffff 000 i iM1
+f ffffffff ffffffff 000 i i0
+f ffffffff ffffffff 000 i i1
+f ffffffff ffffffff 000 i i2
+f ffffffff ffffffff 000 i i3
+f ffffffff ffffffff 000 i i4
+f ffffffff ffffffff 000 i i5
+f ffffffff ffffffff 000 i i6
+f ffffffff ffffffff 000 i i7
+f ffffffff ffffffff 000 i i8
+f ffffffff ffffffff 000 i i9
+f ffffffff ffffffff 000 i i10
+f ffffffff ffffffff 000 i i11
+f ffffffff ffffffff 000 i i12
+f ffffffff ffffffff 000 i i13
+f ffffffff ffffffff 000 i i14
+f ffffffff ffffffff 000 i i15
+f ffffffff ffffffff 000 i i16
+f ffffffff ffffffff 000 i i17
+f ffffffff ffffffff 000 i i18
+f ffffffff ffffffff 000 i i19
+f ffffffff ffffffff 000 i i20
+f ffffffff ffffffff 000 i i21
+f ffffffff ffffffff 000 i i22
+f ffffffff ffffffff 000 i i23
+f ffffffff ffffffff 000 i i24
+f ffffffff ffffffff 000 i i25
+f ffffffff ffffffff 000 i i30
+f ffffffff ffffffff 000 i i35
+f ffffffff ffffffff 000 i i40
+f ffffffff ffffffff 000 i i50
+f ffffffff ffffffff 000 i i60
+f ffffffff ffffffff 000 i i70
+f ffffffff ffffffff 000 i i80
+f ffffffff ffffffff 000 i i90
+f ffffffff ffffffff 000 i i99
+f ffffffff ffffffff 000 i i100
+f ffffffff ffffffff 000 i i150
+f ffffffff ffffffff 000 f f0
+f ffffffff ffffffff 000 f f1
+f ffffffff ffffffff 000 f f2
+f ffffffff ffffffff 000 f f3
+f ffffffff ffffffff 000 f f4
+f ffffffff ffffffff 000 f f5
+f ffffffff ffffffff 000 f f6
+f ffffffff ffffffff 000 f f7
+f ffffffff ffffffff 000 f f8
+f ffffffff ffffffff 000 f f9
+f ffffffff ffffffff 000 f f10
+f ffffffff ffffffff 000 f f11
+f ffffffff ffffffff 000 f f12
+f ffffffff ffffffff 000 f f15
+f ffffffff ffffffff 000 f f16
+f ffffffff ffffffff 000 f f18
+f ffffffff ffffffff 000 f f20
+f ffffffff ffffffff 000 f f24
+f ffffffff ffffffff 000 f f25
+f ffffffff ffffffff 000 f f30
+f ffffffff ffffffff 000 f f35
+f ffffffff ffffffff 000 f f40
+f ffffffff ffffffff 000 f f50
+f ffffffff ffffffff 000 f f60
+f ffffffff ffffffff 000 f f100
+f ffffffff ffffffff 000 f fTouchRange
+f ffffffff ffffffff 000 f fShortRange
+f ffffffff ffffffff 000 f fMediumRange
+f ffffffff ffffffff 000 f fLongRange
+f ffffffff ffffffff 000 i AI_SPECIAL_ACTIONS_ME_RUNNER
+f ffffffff ffffffff 000 i AI_SPECIAL_ACTIONS_FLEE
+f ffffffff ffffffff 000 i AI_SPECIAL_ACTIONS_MOVE_OUT_OF_AOE
+f ffffffff ffffffff 000 i AI_SPECIAL_ACTIONS_FOLLOW_ALLY
+f ffffffff ffffffff 000 s TRAP_CAN_IGNORE_IN_COMBAT
+f ffffffff ffffffff 000 s AI_TOGGLE
+f ffffffff ffffffff 000 s AI_SPECIAL_AI
+f ffffffff ffffffff 000 s ITEM_TALENT_VALUE
+f ffffffff ffffffff 000 s AI_INTELLIGENCE
+f ffffffff ffffffff 000 s AI_MORALE
+f ffffffff ffffffff 000 s AI_SPONTAEUOUSLY_CAST_HEALING
+f ffffffff ffffffff 000 s AI_LAST_SUMMONED_LEVEL
+f ffffffff ffffffff 000 s AI_TURNING_LEVEL
+f ffffffff ffffffff 000 s AI_SPELL_IMMUNE_LEVEL
+f ffffffff ffffffff 000 s AI_EFFECT_HEX
+f ffffffff ffffffff 000 s AI_SPELL_HEX
+f ffffffff ffffffff 000 s AI_ABILITY_DECREASE
+f ffffffff ffffffff 000 s AI_TIMER_EFFECT_SET
+f ffffffff ffffffff 000 s AI_JASPERRES_EFFECT_SET
+f ffffffff ffffffff 000 s AI_TIMER_BUFF_ALLY_SPELL
+f ffffffff ffffffff 000 s AI_TIMER_SET_NUMBER_S_A
+f ffffffff ffffffff 000 s AI_HEARTBEAT_FLEE_SPELLS
+f ffffffff ffffffff 000 s AI_TIMER_BLOCKED
+f ffffffff ffffffff 000 s AI_CHECKED_AOE_SPELL
+f ffffffff ffffffff 000 s AI_DEFAULT_AI_COOLDOWN
+f ffffffff ffffffff 000 s AI_LAST_SETWEAPONS_TIME
+f ffffffff ffffffff 000 s AI_TIMER_DEATH_EFFECT_DEATH
+f ffffffff ffffffff 000 s AI_NEEDREST
+f ffffffff ffffffff 000 s AI_NEEDFASTBUFF
+f ffffffff ffffffff 000 s AI_LAST_X
+f ffffffff ffffffff 000 s AI_LAST_Y
+f ffffffff ffffffff 000 s AI_LAST_Z
+f ffffffff ffffffff 000 s AI_BLOCKED
+f ffffffff ffffffff 000 s AI_POSSIBLYBLOCKED
+f ffffffff ffffffff 000 s AI_LAST_CALLED_TIME
+f ffffffff ffffffff 000 s AI_LAST_CASTED_AOE_SPELL
+f ffffffff ffffffff 000 s AI_LAST_CASTED_AOE_SPELL_NUM
+f ffffffff ffffffff 000 s AI_AOE_LOCATION_TARGETING_FAILED
+f ffffffff ffffffff 000 s AI_SPELL_HIGH_LOW_TOGGLE
+f ffffffff ffffffff 000 s SPELLTRIGGER_NOT_GOT_FIRST_SPELL
+f ffffffff ffffffff 000 s SPELLTRIGGER_DAMAGED_AT_PERCENT
+f ffffffff ffffffff 000 s SPELLTRIGGER_IMMOBILE
+f ffffffff ffffffff 000 s SPELLTRIGGER_START_OF_COMBAT
+f ffffffff ffffffff 000 s USED
+f ffffffff ffffffff 000 s VALUE
+f ffffffff ffffffff 000 s AI_SPELL_TRIGGER_CREATURE
+f ffffffff ffffffff 000 s AI_SPELLTRIG_MAXSPELLS
+f ffffffff ffffffff 000 s AI_SPELLTRIG_PREFIX
+f ffffffff ffffffff 000 i AI_FEAT_BG_CREATE_UNDEAD
+f ffffffff ffffffff 000 i AI_FEAT_BG_FIENDISH_SERVANT
+f ffffffff ffffffff 000 i AI_FEAT_PM_CREATE_UNDEAD
+f ffffffff ffffffff 000 i AI_FEAT_PM_ANIMATE_DEAD
+f ffffffff ffffffff 000 i AI_FEAT_PM_CREATE_GREATER_UNDEAD
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_WILD_SHAPE_UNDEAD
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_WILD_SHAPE_DRAGON
+f ffffffff ffffffff 000 i AI_FEAT_GREATER_WILDSHAPE_1
+f ffffffff ffffffff 000 i AI_FEAT_GREATER_WILDSHAPE_2
+f ffffffff ffffffff 000 i AI_FEAT_GREATER_WILDSHAPE_3
+f ffffffff ffffffff 000 i AI_FEAT_HUMANOID_SHAPE
+f ffffffff ffffffff 000 i AI_FEAT_GREATER_WILDSHAPE_4
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_OUTSIDER_SHAPE
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_CONSTRUCT_SHAPE
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SHIFTER_INFINITE_WILDSHAPE_1
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SHIFTER_INFINITE_WILDSHAPE_2
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SHIFTER_INFINITE_WILDSHAPE_3
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SHIFTER_INFINITE_WILDSHAPE_4
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SHIFTER_INFINITE_HUMANOID_SHAPE
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_DRUID_INFINITE_WILDSHAPE
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_DRUID_INFINITE_ELEMENTAL_SHAPE
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_PLANAR_TURNING
+f ffffffff ffffffff 000 i AI_SPELL_FEAT_TURN_UNDEAD
+f ffffffff ffffffff 000 i AI_SPELL_EVIL_BLIGHT
+f ffffffff ffffffff 000 i AI_SPELL_FEAT_PLANAR_TURNING
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SPELL_MUMMY_DUST
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SPELL_DRAGON_KNIGHT
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SPELL_HELLBALL
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SPELL_EPIC_MAGE_ARMOR
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SPELL_RUIN
+f ffffffff ffffffff 000 i AI_FEAT_EPIC_SPELL_EPIC_WARDING
+f ffffffff ffffffff 000 i AI_SPELL_EPIC_WARDING
+f ffffffff ffffffff 000 i AI_SPELLABILITY_UNDEAD_HARM_SELF
+f ffffffff ffffffff 000 i AI_SPELLABILITY_CURE_CRITICAL_WOUNDS_OTHER
+f ffffffff ffffffff 000 s AI_SPELL_SUB_SPELL_CAST
+f ffffffff ffffffff 000 i AI_SPELL_BARD_SONG
+f ffffffff ffffffff 000 i AI_SPELL_CURSE_SONG
+f ffffffff ffffffff 000 i AI_SPELL_OWLS_INSIGHT
+f ffffffff ffffffff 000 i AI_SPELL_HARPER_CATS_GRACE
+f ffffffff ffffffff 000 i AI_SPELL_HARPER_EAGLE_SPLEDOR
+f ffffffff ffffffff 000 i AI_SPELLABILITY_GWILDSHAPE_STONEGAZE
+f ffffffff ffffffff 000 i AI_SPELLABILITY_GWILDSHAPE_DRIDER_DARKNESS
+f ffffffff ffffffff 000 i AI_SPELLABILITY_GWILDSHAPE_SPIKES
+f ffffffff ffffffff 000 i AI_SPELLABILITY_GWILDSHAPE_MINDBLAST
+f ffffffff ffffffff 000 i AI_SPELLABILITY_VAMPIRE_DOMINATION_GAZE
+f ffffffff ffffffff 000 i AI_SPELLABILITY_WYRMWHITEBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_WYRMBLACKBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_WYRMREDBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_WYRMGREENBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_WYRMBLUEBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_HARPYSONG
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SUMMON_BAATEZU
+f ffffffff ffffffff 000 i AI_SPELLABILITY_EYEBALL_RAY_0
+f ffffffff ffffffff 000 i AI_SPELLABILITY_EYEBALL_RAY_1
+f ffffffff ffffffff 000 i AI_SPELLABILITY_EYEBALL_RAY_2
+f ffffffff ffffffff 000 i AI_SPELLABILITY_MINDFLAYER_MINDBLAST_10
+f ffffffff ffffffff 000 i AI_SPELLABILITY_MINDFLAYER_PARAGON_MINDBLAST
+f ffffffff ffffffff 000 i AI_SPELLABILITY_GOLEM_RANGED_SLAM
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SUCKBRAIN
+f ffffffff ffffffff 000 i AI_SPELLABILITY_BEHOLDER_MAGIC_CONE
+f ffffffff ffffffff 000 i AI_SPELLABILITY_BEBELITH_WEB
+f ffffffff ffffffff 000 i AI_SPELLABILITY_BEHOLDER_ALLRAYS
+f ffffffff ffffffff 000 i AI_SPELLABILITY_PSIONIC_INERTIAL_BARRIER
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SHADOWBLEND
+f ffffffff ffffffff 000 i AI_SPELLABILITY_AURA_OF_HELLFIRE
+f ffffffff ffffffff 000 i AI_SPELLABILITY_HELL_INFERNO
+f ffffffff ffffffff 000 i AI_SPELLABILITY_PSIONIC_MASS_CONCUSSION
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SHADOW_ATTACK
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SLAAD_CHAOS_SPITTLE
+f ffffffff ffffffff 000 i AI_SPELLABILITY_BATTLE_BOULDER_TOSS
+f ffffffff ffffffff 000 i AI_SPELLABILITY_PRISMATIC_DEFLECTING_FORCE
+f ffffffff ffffffff 000 i AI_SPELLABILITY_GIANT_HURL_ROCK
+f ffffffff ffffffff 000 i AI_SPELLABILITY_ILLITHID_MINDBLAST
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SHIFTER_BLUEBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SHIFTER_REDBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SHIFTER_GREENBREATH
+f ffffffff ffffffff 000 i AI_SPELLABILITY_VAMPIRE_INVISIBILITY
+f ffffffff ffffffff 000 i AI_SPELLABILITY_AZER_FIRE_BLAST
+f ffffffff ffffffff 000 i AI_SPELLABILITY_SHIFTER_SPECTRE_ATTACK
+f ffffffff ffffffff 000 s AI_AOE_PER_STORM
+f ffffffff ffffffff 000 s AI_AOE_PER_CREEPING_DOOM
+f ffffffff ffffffff 000 s AI_AOE_PER_FOGSTINK
+f ffffffff ffffffff 000 s AI_AOE_PER_GREASE
+f ffffffff ffffffff 000 s AI_AOE_PER_WALLFIRE
+f ffffffff ffffffff 000 s AI_AOE_PER_WALLBLADE
+f ffffffff ffffffff 000 s AI_AOE_PER_FOGACID
+f ffffffff ffffffff 000 s AI_AOE_PER_FOGFIRE
+f ffffffff ffffffff 000 s AI_AOE_PER_FOGKILL
+f ffffffff ffffffff 000 s AI_AOE_PER_FOGMIND
+f ffffffff ffffffff 000 s AI_AOE_PER_ENTANGLE
+f ffffffff ffffffff 000 s AI_AOE_PER_EVARDS_BLACK_TENTACLES
+f ffffffff ffffffff 000 s AI_AOE_PER_FOGBEWILDERMENT
+f ffffffff ffffffff 000 s AI_AOE_PER_STONEHOLD
+f ffffffff ffffffff 000 s AI_AOE_PER_WEB
+f ffffffff ffffffff 000 i AI_NORMAL_MELEE_ATTACK
+f ffffffff ffffffff 000 i AI_PARRY_ATTACK
+f ffffffff ffffffff 000 s AI_IGNORE_TOGGLE
+f ffffffff ffffffff 000 s AI_MORALE_PENALTY
+f ffffffff ffffffff 000 s AI_CURRENT_ACTION
+f ffffffff ffffffff 000 s WE_HAVE_DIED_ONCE
+f ffffffff ffffffff 000 s AMOUNT_OF_DEATHS
+f ffffffff ffffffff 000 s I_AM_TOTALLY_DEAD
+f ffffffff ffffffff 000 s MAX_ELEMENTAL_DAMAGE
+f ffffffff ffffffff 000 s LAST_ELEMENTAL_DAMAGE
+f ffffffff ffffffff 000 s AI_HIGHEST_DAMAGE_AMOUNT
+f ffffffff ffffffff 000 s AI_HIGHEST_PHISICAL_DAMAGE_AMOUNT
+f ffffffff ffffffff 000 s AI_VALID_HEALING_KIT_OBJECT
+f ffffffff ffffffff 000 s AI_VALID_HEALING_KITS
+f ffffffff ffffffff 000 s RESET_HEALING_KITS
+f ffffffff ffffffff 000 s AI_VALID_ANIMATIONS
+f ffffffff ffffffff 000 s WAYPOINT_RUN
+f ffffffff ffffffff 000 s WAYPOINT_PAUSE
+f ffffffff ffffffff 000 s I_WAS_ATTACKED
+f ffffffff ffffffff 000 s CALL_TO_ARMS
+f ffffffff ffffffff 000 s HELP_MY_FRIEND
+f ffffffff ffffffff 000 s LEADER_FLEE_NOW
+f ffffffff ffffffff 000 s LEADER_ATTACK_TARGET
+f ffffffff ffffffff 000 s I_WAS_KILLED
+f ffffffff ffffffff 000 s I_WAS_OPENED
+f ffffffff ffffffff 000 s DISPEL_THIS_TARGET
+f ffffffff ffffffff 000 s AI_HELP_MY_FRIEND_LOCATION
+f ffffffff ffffffff 000 s PLACEABLE_LAST_OPENED_BY
+f ffffffff ffffffff 000 s AI_TIMER_TURN_OFF_HIDE
+f ffffffff ffffffff 000 s AI_TIMER_JUST_CAST_INVISIBILITY
+f ffffffff ffffffff 000 s AI_TIMER_SHOUT_IGNORE_ANYTHING_SAID
+f ffffffff ffffffff 000 s AI_TIMER_SEARCHING
+f ffffffff ffffffff 000 s AI_TIMER_STILL_PICKING_UP_ITEMS
+f ffffffff ffffffff 000 s AI_TIMER_AIMATIONS_PAUSE
+f ffffffff ffffffff 000 s AI_TIMER_ATTACKED_IN_HTH
+f ffffffff ffffffff 000 s AI_TIMER_TAUNT
+f ffffffff ffffffff 000 s AI_TIMER_EMPATHY
+f ffffffff ffffffff 000 s AI_TIMER_AOE_SPELL_EVENT
+f ffffffff ffffffff 000 s AI_TIMER_FLEE
+f ffffffff ffffffff 000 s AI_TIMER_LEADER_SENT_RUNNER
+f ffffffff ffffffff 000 s AI_TIMER_SEARCH
+f ffffffff ffffffff 000 s AI_TIMER_KNOCKDOWN
+f ffffffff ffffffff 000 s AI_TIMER_CURE_CONDITION
+f ffffffff ffffffff 000 s AI_TALK_ON_PERCIEVE_ENEMY
+f ffffffff ffffffff 000 s AI_TALK_ON_CONVERSATION
+f ffffffff ffffffff 000 s AI_TALK_ON_PHISICALLY_ATTACKED
+f ffffffff ffffffff 000 s AI_TALK_ON_DAMAGED
+f ffffffff ffffffff 000 s AI_TALK_ON_DEATH
+f ffffffff ffffffff 000 s AI_TALK_ON_HOSTILE_SPELL_CAST_AT
+f ffffffff ffffffff 000 s AI_TALK_ON_MORALE_BREAK
+f ffffffff ffffffff 000 s AI_TALK_ON_COMBAT_ROUND
+f ffffffff ffffffff 000 s AI_TALK_WE_PASS_POTION
+f ffffffff ffffffff 000 s AI_TALK_WE_GOT_POTION
+f ffffffff ffffffff 000 s AI_TALK_ON_CANNOT_RUN
+f ffffffff ffffffff 000 s AI_TALK_ON_STUPID_RUN
+f ffffffff ffffffff 000 s AI_TALK_ON_COMBAT_ROUND_EQUAL
+f ffffffff ffffffff 000 s AI_TALK_ON_COMBAT_ROUND_THEM_OVER_US
+f ffffffff ffffffff 000 s AI_TALK_ON_COMBAT_ROUND_US_OVER_THEM
+f ffffffff ffffffff 000 s AI_TALK_ON_TAUNT
+f ffffffff ffffffff 000 s AI_TALK_ON_LEADER_SEND_RUNNER
+f ffffffff ffffffff 000 s AI_TALK_ON_LEADER_ATTACK_TARGET
+f ffffffff ffffffff 000 s ARRAY_SIZE
+f ffffffff ffffffff 000 s ARRAY_PERCENT
+f ffffffff ffffffff 000 s TIME_STOP_LAST_
+f ffffffff ffffffff 000 s TIME_STOP_LAST_ARRAY_SIZE
+f ffffffff ffffffff 000 s AI_ATTACK_SPECIFIC_OBJECT
+f ffffffff ffffffff 000 s AI_FLEE_TO
+f ffffffff ffffffff 000 s AI_AOE_FLEE_FROM
+f ffffffff ffffffff 000 s AI_AOE_FLEE_FROM_RANGE
+f ffffffff ffffffff 000 s AI_TO_ATTACK
+f ffffffff ffffffff 000 s AI_TO_FOLLOW
+f ffffffff ffffffff 000 s AI_STORED_LAST_ATTACKER
+f ffffffff ffffffff 000 s AI_HIGHEST_DAMAGER
+f ffffffff ffffffff 000 s AI_LAST_TO_GO_INVISIBLE
+f ffffffff ffffffff 000 s AI_RUNNER_TARGET
+f ffffffff ffffffff 000 s AI_CURRENT_TAKER
+f ffffffff ffffffff 000 s BODY_BAG
+f ffffffff ffffffff 000 s AI_WEAPON_PRIMARY
+f ffffffff ffffffff 000 s AI_WEAPON_SECONDARY
+f ffffffff ffffffff 000 s AI_WEAPON_TWO_HANDED
+f ffffffff ffffffff 000 s AI_WEAPON_GLOVES
+f ffffffff ffffffff 000 s AI_WEAPON_RANGED
+f ffffffff ffffffff 000 s AI_WEAPON_RANGED_2
+f ffffffff ffffffff 000 s AI_WEAPON_RANGED_SHIELD
+f ffffffff ffffffff 000 s AI_WEAPON_RANGED_AMMOSLOT
+f ffffffff ffffffff 000 s AI_WEAPON_RANGED_IS_UNLIMITED
+f ffffffff ffffffff 000 s AI_WEAPON_SHIELD
+f ffffffff ffffffff 000 s AI_WEAPON_SHIELD_2
+f ffffffff ffffffff 000 s AI_WEAPON_UNARMED
+f ffffffff ffffffff 000 s WEAP_SIZE
+f ffffffff ffffffff 000 s WEAP_DAMAGE
+f ffffffff ffffffff 000 s AI_EQUIPED_VALUE_RIGHT_HAND
+f ffffffff ffffffff 000 s AI_EQUIPED_VALUE_LEFT_HAND
+f ffffffff ffffffff 000 s AI_EQUIPED_VALUE_GLOVES
+f ffffffff ffffffff 000 s AI_UDE_MASTER
+f ffffffff ffffffff 000 s EXIT_UDE_PREFIX_
+f ffffffff ffffffff 000 i AI_FLAG_UDE_HEARTBEAT_EVENT
+f ffffffff ffffffff 000 i EVENT_HEARTBEAT_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_HEARTBEAT_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_HEARTBEAT_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_PERCIEVE_EVENT
+f ffffffff ffffffff 000 i EVENT_PERCIEVE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_PERCIEVE_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_PERCIEVE_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_END_COMBAT_ROUND_EVENT
+f ffffffff ffffffff 000 i EVENT_END_COMBAT_ROUND_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_END_COMBAT_ROUND_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_END_COMBAT_ROUND_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_ON_DIALOGUE_EVENT
+f ffffffff ffffffff 000 i EVENT_ON_DIALOGUE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_ON_DIALOGUE_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_ON_DIALOGUE_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_ATTACK_EVENT
+f ffffffff ffffffff 000 i EVENT_ATTACK_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_ATTACK_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_ATTACK_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DAMAGED_EVENT
+f ffffffff ffffffff 000 i EVENT_DAMAGED_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DAMAGED_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_DAMAGED_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DEATH_EVENT
+f ffffffff ffffffff 000 i EVENT_DEATH_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DEATH_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_DEATH_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DISTURBED_EVENT
+f ffffffff ffffffff 000 i EVENT_DISTURBED_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DISTURBED_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_DISTURBED_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_RESTED_EVENT
+f ffffffff ffffffff 000 i EVENT_RESTED_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_RESTED_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_RESTED_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_SPELL_CAST_AT_EVENT
+f ffffffff ffffffff 000 i EVENT_SPELL_CAST_AT_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_SPELL_CAST_AT_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_SPELL_CAST_AT_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_COMBAT_ACTION_EVENT
+f ffffffff ffffffff 000 i EVENT_COMBAT_ACTION_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_COMBAT_ACTION_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_COMBAT_ACTION_PRE_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_DAMAGED_AT_1_HP
+f ffffffff ffffffff 000 i EVENT_DAMAGED_AT_1_HP
+f ffffffff ffffffff 000 i AI_FLAG_UDE_ON_BLOCKED_EVENT
+f ffffffff ffffffff 000 i EVENT_ON_BLOCKED_EVENT
+f ffffffff ffffffff 000 i AI_FLAG_UDE_ON_BLOCKED_PRE_EVENT
+f ffffffff ffffffff 000 i EVENT_ON_BLOCKED_PRE_EVENT
+f ffffffff ffffffff 000 s AI_TARGETING_FLEE_MASTER
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_LIKE_LOWER_HP
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_LIKE_LOWER_AC
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_LIKE_MAGE_CLASSES
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_LIKE_ARCHERS
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_LIKE_PCS
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_FILTER_FOR_PC_TARGETS
+f ffffffff ffffffff 000 i AI_FLAG_TARGETING_LIKE_LOWER_HD
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_FLEE_TO_WAYPOINT_IF_VALID
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_FEARLESS
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_FLEE_TO_OBJECT
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_FLEE_TO_NEAREST_NONE_SEEN
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_NEVER_FIGHT_IMPOSSIBLE_ODDS
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_TURN_OFF_GROUP_MORALE
+f ffffffff ffffffff 000 i AI_FLAG_FLEEING_NO_OVERRIDING_HP_AMOUNT
+f ffffffff ffffffff 000 s BASE_MORALE_SAVE
+f ffffffff ffffffff 000 s AI_DAMAGE_AT_ONCE_FOR_MORALE_PENALTY
+f ffffffff ffffffff 000 s AI_DAMAGE_AT_ONCE_PENALTY
+f ffffffff ffffffff 000 s AMOUNT_OF_HD_DIFFERENCE_TO_CHECK
+f ffffffff ffffffff 000 s HP_PERCENT_TO_CHECK_AT
+f ffffffff ffffffff 000 s AI_FLEE_OBJECT
+f ffffffff ffffffff 000 s AI_FAVOURED_ENEMY_RACE
+f ffffffff ffffffff 000 s AI_FAVOURED_ENEMY_CLASS
+f ffffffff ffffffff 000 s AI_MAX_TURNS_TO_ATTACK_ONE_TARGET
+f ffffffff ffffffff 000 s AI_MELEE_TURNS_ATTACKING
+f ffffffff ffffffff 000 s AI_SPELL_TURNS_ATTACKING
+f ffffffff ffffffff 000 s AI_RANGED_TURNS_ATTACKING
+f ffffffff ffffffff 000 s AI_MELEE_LAST_TO_NEW_TARGET_CHANCE
+f ffffffff ffffffff 000 s AI_RANGED_LAST_TO_NEW_TARGET_CHANCE
+f ffffffff ffffffff 000 s AI_SPELL_LAST_TO_NEW_TARGET_CHANCE
+f ffffffff ffffffff 000 s MAXIMUM
+f ffffffff ffffffff 000 s MINIMUM
+f ffffffff ffffffff 000 i TARGET_HIGHER
+f ffffffff ffffffff 000 i TARGET_LOWER
+f ffffffff ffffffff 000 s TARGETING_ISPC
+f ffffffff ffffffff 000 s TARGETING_MANTALS
+f ffffffff ffffffff 000 s TARGETING_RANGE
+f ffffffff ffffffff 000 s TARGETING_AC
+f ffffffff ffffffff 000 s TARGETING_SAVES
+f ffffffff ffffffff 000 s TARGETING_PHISICALS
+f ffffffff ffffffff 000 s TARGETING_BAB
+f ffffffff ffffffff 000 s TARGETING_HITDICE
+f ffffffff ffffffff 000 s TARGETING_HP_PERCENT
+f ffffffff ffffffff 000 s TARGETING_HP_CURRENT
+f ffffffff ffffffff 000 s TARGETING_HP_MAXIMUM
+f ffffffff ffffffff 000 s AI_LAST_MELEE_TARGET
+f ffffffff ffffffff 000 s AI_LAST_SPELL_TARGET
+f ffffffff ffffffff 000 s AI_LAST_RANGED_TARGET
+f ffffffff ffffffff 000 s AI_SAVED_DISPEL_TARGET
+f ffffffff ffffffff 000 s GLOBAL_TURNS_ATTACKING_MELEE_TARGET
+f ffffffff ffffffff 000 s GLOBAL_TURNS_ATTACKING_SPELL_TARGET
+f ffffffff ffffffff 000 s GLOBAL_TURNS_ATTACKING_RANGED_TARGET
+f ffffffff ffffffff 000 s AI_COMBAT_MASTER
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_COUNTER_SPELL_ARCANE
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_COUNTER_SPELL_DIVINE
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_COUNTER_SPELL_ONLY_IN_GROUP
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_NEVER_HIT_ALLIES
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_AOE_DONT_MIND_IF_THEY_SURVIVE
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_SINGLE_TARGETING
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_MANY_TARGETING
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_IMPROVED_INSTANT_DEATH_SPELLS
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_IMPROVED_SUMMON_TARGETING
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_IMPROVED_IMMUNITY_CHECKING
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_IMPROVED_SPECIFIC_SPELL_IMMUNITY
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_USE_ALL_POTIONS
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_LONGER_RANGED_SPELLS_FIRST
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_DISPEL_MAGES_MORE
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_DISPEL_IN_ORDER
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_MORE_ALLY_BUFFING_SPELLS
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_SUMMON_FAMILIAR
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_FLAG_FAST_BUFF_ENEMY
+f ffffffff ffffffff 000 s AI_AOE_HD_DIFFERENCE
+f ffffffff ffffffff 000 s AI_AOE_ALLIES_LOWEST_IN_AOE
+f ffffffff ffffffff 000 s AI_CHEAT_CAST_SPELL
+f ffffffff ffffffff 000 s GLOBAL_LAST_SPELL_INFORMATION
+f ffffffff ffffffff 000 s AI_NOMAGICCOUNT
+f ffffffff ffffffff 000 s AI_DISPEL_CASTED_TIMER
+f ffffffff ffffffff 000 s AI_COUNTERSPELL_USER
+f ffffffff ffffffff 000 s AI_LAST_CASTED_SPELL_ID
+f ffffffff ffffffff 000 s AI_FAMILIAR_TYPE
+f ffffffff ffffffff 000 s AI_COMPANION_TYPE
+f ffffffff ffffffff 000 s AI_SET_RESURRECTION_USER
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_PICK_UP_DISARMED_WEAPONS
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_BETTER_AT_HAND_TO_HAND
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_ARCHER_ATTACKING
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_ARCHER_ALWAYS_MOVE_BACK
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_ARCHER_ALWAYS_USE_BOW
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_NO_GO_FOR_THE_KILL
+f ffffffff ffffffff 000 s AI_RANGED_WEAPON_RANGE
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_NO_WING_BUFFET
+f ffffffff ffffffff 000 i AI_FLAG_COMBAT_FLYING
+f ffffffff ffffffff 000 s AI_DRAGON_FREQUENCY_OF_BUFFET
+f ffffffff ffffffff 000 s AI_DRAGON_FREQUENCY_OF_BREATH
+f ffffffff ffffffff 000 s AI_DRAGONS_BREATH
+f ffffffff ffffffff 000 s AI_WING_BUFFET
+f ffffffff ffffffff 000 s AI_FLYING_TARGET
+f ffffffff ffffffff 000 s AI_OTHER_COMBAT_MASTER
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_HEAL_AT_PERCENT_NOT_AMOUNT
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_WILL_RAISE_ALLIES_IN_BATTLE
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_CURING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_ONLY_CURE_SELF
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_ONLY_RESTORE_SELF
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_GIVE_POTIONS_TO_HELP
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_USE_BAD_HEALING_SPELLS
+f ffffffff ffffffff 000 s AI_HEALING_US_PERCENT
+f ffffffff ffffffff 000 s AI_HEALING_ALLIES_PERCENT
+f ffffffff ffffffff 000 s SECONDS_BETWEEN_STATUS_CHECKS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_PICKPOCKETING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_PICKPOCKETING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_TAUNTING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_TAUNTING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_EMPATHY
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_EMPATHY
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_HIDING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_HIDING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_OPENING_LOCKED_DOORS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_OPENING_LOCKED_DOORS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_USING_HEALING_KITS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_USING_HEALING_KITS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_SEARCH
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_SEARCH
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_CONCENTRATION
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_CONCENTRATION
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_NO_PARRYING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_FORCE_PARRYING
+f ffffffff ffffffff 000 s AI_CONCENTRATIONMOVE_COUNTER
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_BOSS_MONSTER_SHOUT
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_GROUP_LEADER
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_ONLY_SELF_BUFFING_SPELLS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_COMBAT_DISPEL_WITH_MELEE
+f ffffffff ffffffff 000 s AI_BOSS_MONSTER_SHOUT_RANGE
+f ffffffff ffffffff 000 s AI_LEADER_SHOUT_COUNT
+f ffffffff ffffffff 000 s NW_GENERIC_MASTER
+f ffffffff ffffffff 000 i NW_FLAG_SPECIAL_CONVERSATION
+f ffffffff ffffffff 000 i NW_FLAG_SHOUT_ATTACK_MY_TARGET
+f ffffffff ffffffff 000 i NW_FLAG_STEALTH
+f ffffffff ffffffff 000 i NW_FLAG_SEARCH
+f ffffffff ffffffff 000 i NW_FLAG_SET_WARNINGS
+f ffffffff ffffffff 000 i NW_FLAG_ESCAPE_RETURN
+f ffffffff ffffffff 000 i NW_FLAG_ESCAPE_LEAVE
+f ffffffff ffffffff 000 i NW_FLAG_TELEPORT_RETURN
+f ffffffff ffffffff 000 i NW_FLAG_TELEPORT_LEAVE
+f ffffffff ffffffff 000 i NW_FLAG_PERCIEVE_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_ATTACK_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_DAMAGED_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_SPELL_CAST_AT_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_DISTURBED_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_END_COMBAT_ROUND_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_ON_DIALOGUE_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_RESTED_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_DEATH_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_SPECIAL_COMBAT_CONVERSATION
+f ffffffff ffffffff 000 i NW_FLAG_HEARTBEAT_EVENT
+f ffffffff ffffffff 000 i NW_FLAG_DAY_NIGHT_POSTING
+f ffffffff ffffffff 000 i NW_FLAG_APPEAR_SPAWN_IN_ANIMATION
+f ffffffff ffffffff 000 i NW_FLAG_SLEEPING_AT_NIGHT
+f ffffffff ffffffff 000 i NW_FLAG_FAST_BUFF_ENEMY
+f ffffffff ffffffff 000 i NW_FLAG_AMBIENT_ANIMATIONS
+f ffffffff ffffffff 000 i NW_FLAG_IMMOBILE_AMBIENT_ANIMATIONS
+f ffffffff ffffffff 000 i NW_FLAG_AMBIENT_ANIMATIONS_AVIAN
+f ffffffff ffffffff 000 s AI_OTHER_MASTER
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_TURN_OFF_CORPSES
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_USE_BIOWARE_LOOTING
+f ffffffff ffffffff 000 s AI_WE_WILL_CREATE_ON_DEATH
+f ffffffff ffffffff 000 s AI_DEATH_VISUAL_EFFECT
+f ffffffff ffffffff 000 s AI_CORPSE_DESTROY_TIME
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_SEARCH_IF_ENEMIES_NEAR
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_CHANGE_FACTIONS_TO_HOSTILE_ON_ATTACK
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_ONLY_ATTACK_IF_ATTACKED
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_REST_AFTER_COMBAT
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_NO_PLAYING_VOICE_CHAT
+f ffffffff ffffffff 000 s AI_SEARCH_IF_ENEMIES_NEAR_RANGE
+f ffffffff ffffffff 000 s AI_DOOR_INTELLIGENCE
+f ffffffff ffffffff 000 s AI_LOOT_BAG_OTHER_1
+f ffffffff ffffffff 000 s AI_LOOT_BAG_OTHER_2
+f ffffffff ffffffff 000 s AI_LOOT_BAG_OTHER_3
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_NO_COMMONER_ALIGNMENT_CHANGE
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_FORCE_COMMONER_ALIGNMENT_CHANGE
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_NO_ITEMS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_NO_SPELLS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_NO_LISTENING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_EQUIP_MOST_DAMAGING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_NO_CURING_ALLIES
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_IGNORE_HEARTBEAT
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_LAG_TARGET_NEAREST_ENEMY
+f ffffffff ffffffff 000 s LAG_AI_LEVEL_NO_PC_OR_ENEMY_50M
+f ffffffff ffffffff 000 s LAG_AI_LEVEL_YES_PC_OR_ENEMY_50M
+f ffffffff ffffffff 000 s LAG_AI_LEVEL_COMBAT
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_CHEAT_MORE_POTIONS
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_RETURN_TO_SPAWN_LOCATION
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_NO_CLEAR_ACTIONS_BEFORE_CONVERSATION
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_NO_POLYMORPHING
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_DONT_RESPOND_TO_EMOTES
+f ffffffff ffffffff 000 i AI_FLAG_OTHER_DONT_SHOUT
+f ffffffff ffffffff 000 s EMOTE_STAR
+f ffffffff ffffffff 000 s AI_POLYMORPH_INTO
+f ffffffff ffffffff 000 s AI_RETURN_TO_POINT
+f ffffffff ffffffff 000 s AI_VALID_SPELLS
+f ffffffff ffffffff 000 i MAXCR
+f ffffffff ffffffff 000 i AI_VALID_TALENT_HARMFUL_AREAEFFECT_DISCRIMINANT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_HARMFUL_RANGED
+f ffffffff ffffffff 000 i AI_VALID_TALENT_HARMFUL_TOUCH
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_HEALING_AREAEFFECT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_HEALING_TOUCH
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_CONDITIONAL_AREAEFFECT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_CONDITIONAL_SINGLE
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_ENHANCEMENT_AREAEFFECT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_ENHANCEMENT_SINGLE
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_ENHANCEMENT_SELF
+f ffffffff ffffffff 000 i AI_VALID_TALENT_HARMFUL_AREAEFFECT_INDISCRIMINANT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_PROTECTION_SELF
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_PROTECTION_SINGLE
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_PROTECTION_AREAEFFECT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_OBTAIN_ALLIES
+f ffffffff ffffffff 000 i AI_VALID_TALENT_PERSISTENT_AREA_OF_EFFECT
+f ffffffff ffffffff 000 i AI_VALID_TALENT_BENEFICIAL_HEALING_POTION
+f ffffffff ffffffff 000 i AI_VALID_TALENT_DRAGONS_BREATH
+f ffffffff ffffffff 000 i AI_VALID_TALENT_HARMFUL_MELEE
+f ffffffff ffffffff 000 i AI_VALID_CURE_CONDITION_SPELLS
+f ffffffff ffffffff 000 i AI_VALID_OTHER_SPELL
+f ffffffff ffffffff 000 i AI_VALID_ANY_SPELL
+f ffffffff ffffffff 000 s AI_NUMBER_OF_SPELLS
+f ffffffff ffffffff 000 s AI_NUMBER_OF_ABILITIES
+f ffffffff ffffffff 000 s AI_TEMP_SET_TARGET
+f ffffffff ffffffff 000 s AI_TIMER
+f ffffffff ffffffff 000 s AI_CONSTANT
+f ffffffff ffffffff 000 s AI_INTEGER
+f ffffffff ffffffff 000 s AI_OBJECT
+f ffffffff ffffffff 000 s MAXINT_
+f ffffffff ffffffff 000 s s1
+f ffffffff ffffffff 000 s s0
+f ffffffff ffffffff 000 s ARRAY_TEMP_ENEMIES
+f ffffffff ffffffff 000 s ARRAY_TEMP_ALLIES
+f ffffffff ffffffff 000 s ARRAY_TEMP_ARRAY
+f ffffffff ffffffff 000 s ARRAY_MELEE_ENEMY
+f ffffffff ffffffff 000 s ARRAY_RANGED_ENEMY
+f ffffffff ffffffff 000 s ARRAY_SPELL_ENEMY
+f ffffffff ffffffff 000 s ARRAY_ENEMY_RANGE
+f ffffffff ffffffff 000 s ARRAY_ENEMY_RANGE_SEEN
+f ffffffff ffffffff 000 s ARRAY_ENEMY_RANGE_HEARD
+f ffffffff ffffffff 000 s ARRAY_ALLIES_RANGE
+f ffffffff ffffffff 000 s ARRAY_ALLIES_RANGE_SEEN
+f ffffffff ffffffff 000 s ARRAY_ALLIES_RANGE_SEEN_BUFF
+f ffffffff ffffffff 000 s AI_WEAPONSETTING_SETWEAPONS
+f 00001226 000012ec 001 i GetAIOff
+fp o
+f ffffffff ffffffff 001 v SetAIOff
+fp o
+f ffffffff ffffffff 001 v SetAIOn
+fp o
+f 000034f4 0000352c 002 v SetSpawnInCondition
+fp i
+fp s
+f ffffffff ffffffff 002 v DeleteSpawnInCondition
+fp i
+fp s
+f 00001132 00001173 003 i GetSpawnInCondition
+fp i
+fp s
+fp o
+f 00002aab 00002adb 001 v SetCurrentAction
+fp i
+f 0000193c 0000195e 000 v ResetCurrentAction
+f 000018bb 000018f7 000 i GetCurrentSetAction
+f ffffffff ffffffff 002 v SetAIConstant
+fp s
+fp i
+f ffffffff ffffffff 001 i GetAIConstant
+fp s
+f ffffffff ffffffff 001 v DeleteAIConstant
+fp s
+f 0000336e 000033a2 002 v SetAIInteger
+fp s
+fp i
+f 0000195e 000019a4 001 i GetAIInteger
+fp s
+f ffffffff ffffffff 004 i GetBoundriedAIInteger
+fp s
+fp i
+fp i
+fp i
+f 00003478 000034a4 001 v DeleteAIInteger
+fp s
+f 00002a78 00002aab 002 v SetAIObject
+fp s
+fp o
+f 000018f7 0000193c 001 o GetAIObject
+fp s
+f ffffffff ffffffff 001 v DeleteAIObject
+fp s
+f 00001bd4 00001c4c 002 v SetLocalTimer
+fp s
+fp f
+f 00001b88 00001bcc 001 i GetLocalTimer
+fp s
+f ffffffff ffffffff 003 v SetArrayIntegerValue
+fp s
+fp o
+fp i
+f ffffffff ffffffff 003 v MoveArrayIntegerBackOne
+fp s
+fp i
+fp i
+f ffffffff ffffffff 003 v SetArrayFloatValue
+fp s
+fp o
+fp f
+f ffffffff ffffffff 003 v MoveArrayFloatBackOne
+fp s
+fp i
+fp i
+f ffffffff ffffffff 001 v DeleteArray
+fp s
+f ffffffff ffffffff 001 v SetIgnore
+fp o
+f 00001c4c 00001c8f 001 i GetIgnore
+fp o
+f 000031c5 000032c1 001 i GetIgnoreNoFriend
+fp o
+f 0000109f 00001132 002 i FireUserEvent
+fp i
+fp i
+f ffffffff ffffffff 001 v SetToExitFromUDE
+fp i
+f 00001173 00001226 001 i ExitFromUDE
+fp i
+f 00001c8f 00001d42 000 i GetIsFighting
+f 00002b13 000030d8 000 i GetIsBusyWithAction
+f 00002adb 00002b13 000 i CannotPerformCombatRound
+f 00001d42 00002023 002 v SpeakArrayString
+fp s
+fp i
+f ffffffff ffffffff 001 v Search
+fp o
+f ffffffff ffffffff 000 v SearchSpells
+f 00001b4a 00001b88 000 s GetCustomAIFileName
+f ffffffff ffffffff 001 v SetCustomAIFileName
+fp s
+f 000019a4 00001b4a 001 v DetermineCombatRound
+fp o
+f 000012ec 000018bb 000 i GetIsPerformingSpecialAction
+f 000034a4 000034f4 001 v AISpeakString
+fp s
+f ffffffff ffffffff 001 i GetAreaWidth
+fp o
+f ffffffff ffffffff 001 i GetAreaHeight
+fp o
+f ffffffff ffffffff 000 v SetNumberOfSpellAndAbility
+f ffffffff ffffffff 001 i AI_AttemptFeatSummonFamiliar
+fp i
+f 00002023 00002a78 002 v RespondToShout
+fp o
+fp i
+f 000030d8 000031c5 001 o GetIntruderFromShout
+fp o
+f ffffffff ffffffff 001 v ShoutBossShout
+fp o
+f ffffffff ffffffff 002 i GetHasEffect
+fp i
+fp o
+f 000032c1 0000336e 002 v SetMoralePenalty
+fp i
+fp f
+f 000033a2 00003478 001 v RemoveMoralePenalty
+fp i
+f ffffffff ffffffff 001 v SearchDispells
+fp o
+f ffffffff ffffffff 001 v TurnOffHiding
+fp o
+f ffffffff ffffffff 000 v HideOrClear
+f ffffffff ffffffff 001 v ActionMoveToEnemy
+fp o
+f ffffffff ffffffff 001 i PerceptionFleeFrom
+fp o
+f ffffffff ffffffff 001 i GetIsAllowedDM
+fp o
+f ffffffff ffffffff 000 s VNNPC_wasListening
+f ffffffff ffffffff 000 i VNNPC_patternNumber
+f ffffffff ffffffff 000 s VNNPC_isWaitingNewName
+f ffffffff ffffffff 000 v VNNPC_onActivateItem
+f 00000b9d 0000109f 001 s VNNPC_generateName
+fp o
+f 0000091a 00000b9d 000 i VNNPC_onConversation
+f 00000015 0000091a 000 v main
+f 0000000d 00000015 000 v #loader
+v 00000091 00000912 00000000 i nMatch
+v 000000a6 00000912 00000004 o oShouter
+v 000000bb 00000912 00000008 s sSpoken
+v 000006a4 00000751 0000000c o oIntruder
+v 0000091a 00000b9b 00000000 i #retval
+v 0000091c 00000b95 00000004 o speaker
+v 00000931 00000b95 00000008 i patternNumber
+v 00000981 00000b69 0000000c s newName
+v 00000b9d 0000109d 00000000 s #retval
+v 00000b9d 00001097 00000004 o target
+v 00000b9f 00001091 00000008 s newName
+v 0000109f 00001130 00000000 i #retval
+v 0000109f 0000112a 00000004 i iNumber
+v 0000109f 0000112a 00000008 i iSpawnValue
+v 00001132 00001171 00000000 i #retval
+v 00001132 0000116b 00000004 o oTarget
+v 00001132 0000116b 00000008 s sName
+v 00001132 0000116b 0000000c i nCondition
+v 00001173 00001224 00000000 i #retval
+v 00001173 0000121e 00000004 i iNumber
+v 00001175 00001218 00000008 s sCheck
+v 00001226 000012ea 00000000 i #retval
+v 00001226 000012e4 00000004 o oTarget
+v 000012ec 000018b9 00000000 i #retval
+v 000012ee 000018b3 00000004 i iAction
+v 00001306 000018b3 00000008 o oTarget
+v 00001321 000018b3 0000000c o oRunTarget
+v 00001700 00001881 00000014 o oFollow
+v 000018bb 000018f5 00000000 i #retval
+v 000018f7 0000193a 00000000 o #retval
+v 000018f7 00001934 00000004 s sName
+v 0000195e 000019a2 00000000 i #retval
+v 0000195e 0000199c 00000004 s sName
+v 000019a4 00001b42 00000000 o oTarget
+v 000019a6 00001b3c 00000004 s sAI
+v 00001b4a 00001b86 00000000 s #retval
+v 00001b88 00001bca 00000000 i #retval
+v 00001b88 00001bc4 00000004 s sName
+v 00001bcc 00001bcc 00000000 s sInput
+v 00001bcc 00001bcc 00000004 i iInput
+v 00001bcc 00001bcc 00000008 o oInput
+v 00001bcc 00001bcc 0000000c i iInteger
+v 00001bd4 00001c44 00000000 f fDuration
+v 00001bd4 00001c44 00000004 s sName
+v 00001c4c 00001c8d 00000000 i #retval
+v 00001c4c 00001c87 00000004 o oTarget
+v 00001c8f 00001d40 00000000 i #retval
+v 00001d42 0000201b 00000000 i i1000
+v 00001d42 0000201b 00000004 s sName
+v 00001d44 00002015 00000008 i iSize
+v 00001ddb 00002009 0000000c i iCarryOn
+v 00001ec5 00001ffd 00000010 i iRandomOne
+v 00001f1a 00001ffd 00000014 s sSpeak
+v 00001f76 00001fd6 00000018 f fDelay
+v 00002023 00002a70 00000000 i nShoutIndex
+v 00002023 00002a70 00000004 o oShouter
+v 00002025 00002a6a 00000008 o oIntruder
+v 000022d0 000023eb 0000000c i nType
+v 00002444 00002513 0000000c o oTmp
+v 00002842 00002a58 0000000c e2 lMoveTo
+v 00002a78 00002aa3 00000000 o oObject
+v 00002a78 00002aa3 00000004 s sName
+v 00002aab 00002ad3 00000000 i nAction
+v 00002adb 00002b11 00000000 i #retval
+v 00002b13 000030d6 00000000 i #retval
+v 00002b15 000030d0 00000004 i iAction
+v 00002d7e 00002e61 00000008 i iAttackObjectType
+v 000030d8 000031c3 00000000 o #retval
+v 000030d8 000031bd 00000004 o oShouter
+v 000030da 000031b7 00000008 o oIntruder
+v 000031c5 000032bf 00000000 i #retval
+v 000031c5 000032b9 00000004 o oTarget
+v 000032c1 00003366 00000000 f fDuration
+v 000032c1 00003366 00000004 i iPenalty
+v 000032c3 00003360 00000008 i iOriginal
+v 000032f0 00003360 0000000c i iNew
+v 0000336e 0000339a 00000000 i iValue
+v 0000336e 0000339a 00000004 s sName
+v 000033a2 00003470 00000000 i iPenalty
+v 000033a4 0000346a 00000004 i iOriginal
+v 000033d1 0000346a 00000008 i iNew
+v 00003478 0000349c 00000000 s sName
+v 000034a4 000034ec 00000000 s sString
+v 000034f4 00003524 00000000 s sName
+v 000034f4 00003524 00000004 i nCondition
+l05 0000031 00000015 0000001d
+l05 0000032 00000023 00000029
+l05 0000036 0000002f 00000043
+l05 0000038 00000049 00000057
+l05 0000041 0000006f 0000007d
+l05 0000044 0000008f 000000a4
+l05 0000045 000000a4 000000b9
+l05 0000046 000000b9 000000d4
+l05 0000052 000000d4 00000163
+l05 0000054 00000169 000001e6
+l05 0000055 000001e6 00000224
+l05 0000056 00000224 00000230
+l05 0000062 00000236 0000032a
+l05 0000070 00000330 0000034a
+l05 0000071 0000034a 00000356
+l05 0000075 0000035c 0000036c
+l05 0000078 00000372 000003c4
+l05 0000082 000003ca 00000401
+l05 0000084 00000407 00000412
+l05 0000085 00000412 00000424
+l05 0000086 00000424 0000044b
+l05 0000087 0000044b 00000462
+l05 0000088 00000462 00000498
+l05 0000090 0000049e 000004a0
+l05 0000093 000004a0 000004c9
+l05 0000095 000004cf 000004da
+l05 0000097 000004e0 000004f5
+l05 0000103 00000501 00000503
+l05 0000106 0000058f 000005d3
+l05 0000112 000005d9 0000062c
+l05 0000115 00000632 00000648
+l05 0000119 0000064e 00000650
+l05 0000124 000006a2 000006c2
+l05 0000126 000006c2 00000719
+l05 0000131 0000071f 0000073d
+l05 0000132 0000073d 0000074b
+l05 0000136 00000763 00000765
+l05 0000139 000007a3 000007ad
+l05 0000143 000007b3 000007fa
+l05 0000146 00000800 00000844
+l05 0000150 0000084a 00000864
+l05 0000151 00000864 00000870
+l05 0000155 0000087c 0000089a
+l05 0000157 0000089a 000008cd
+l05 0000159 000008cd 000008d8
+l05 0000160 000008d8 000008e6
+l05 0000165 000008f8 00000912
+l05 0000166 00000918 0000091a
+l04 0000109 0000091a 0000092f
+l04 0000110 0000092f 00000944
+l04 0000112 00000944 00000979
+l04 0000116 0000097f 00000981
+l04 0000117 00000981 00000991
+l04 0000118 00000997 000009b0
+l04 0000119 000009b6 000009b8
+l04 0000120 000009ce 000009e7
+l04 0000121 000009e7 00000a07
+l04 0000122 00000a0d 00000a3d
+l04 0000123 00000a43 00000a45
+l04 0000124 00000a45 00000a65
+l04 0000126 00000a6b 00000a7d
+l04 0000127 00000a83 00000a9f
+l04 0000128 00000aa5 00000ab8
+l04 0000129 00000ab8 00000ad9
+l04 0000130 00000ad9 00000aef
+l04 0000131 00000aef 00000b07
+l04 0000132 00000b07 00000b49
+l04 0000133 00000b49 00000b69
+l04 0000135 00000b75 00000b95
+l04 0000136 00000b9b 00000b9d
+l04 0000036 00000b9d 00000b9f
+l04 0000038 00000b9f 00000c60
+l04 0000040 00000c60 00000c60
+l04 0000041 00000c60 00000c79
+l04 0000043 00000c79 00000c79
+l04 0000044 00000c79 00000c8e
+l04 0000045 00000c94 00000cc1
+l04 0000046 00000cc7 00000cc9
+l04 0000047 00000cc9 00000cf6
+l04 0000048 00000cf6 00000cfc
+l04 0000050 00000cfc 00000cfc
+l04 0000051 00000cfc 00000d11
+l04 0000052 00000d17 00000d44
+l04 0000053 00000d4a 00000d4c
+l04 0000054 00000d4c 00000d79
+l04 0000055 00000d79 00000d7f
+l04 0000057 00000d7f 00000d7f
+l04 0000058 00000d7f 00000d94
+l04 0000059 00000d9a 00000dc7
+l04 0000060 00000dcd 00000dcf
+l04 0000061 00000dcf 00000dfc
+l04 0000062 00000dfc 00000e02
+l04 0000064 00000e02 00000e02
+l04 0000065 00000e02 00000e17
+l04 0000066 00000e1d 00000e4a
+l04 0000067 00000e50 00000e52
+l04 0000068 00000e52 00000e7f
+l04 0000069 00000e7f 00000e85
+l04 0000071 00000e85 00000e85
+l04 0000072 00000e85 00000e9a
+l04 0000073 00000ea0 00000ecd
+l04 0000074 00000ed3 00000ed5
+l04 0000075 00000ed5 00000f02
+l04 0000076 00000f02 00000f08
+l04 0000078 00000f08 00000f08
+l04 0000079 00000f08 00000f1d
+l04 0000080 00000f23 00000f50
+l04 0000081 00000f56 00000f58
+l04 0000082 00000f58 00000f85
+l04 0000083 00000f85 00000f8b
+l04 0000085 00000f8b 00000f8b
+l04 0000086 00000f8b 00000fa0
+l04 0000087 00000fa6 00000fd3
+l04 0000088 00000fd9 00000fdb
+l04 0000089 00000fdb 00001008
+l04 0000090 00001008 0000100e
+l04 0000092 0000100e 0000100e
+l04 0000093 0000100e 00001023
+l04 0000094 00001029 00001042
+l04 0000095 00001048 0000104a
+l04 0000096 0000104a 00001063
+l04 0000097 00001063 00001069
+l04 0000099 0000106f 00001091
+l04 0000100 00001097 0000109f
+l01 0001770 0000109f 000010c6
+l01 0001773 000010cc 000010e4
+l01 0001774 000010e4 00001104
+l01 0001776 0000110a 0000112a
+l01 0001777 0000112a 00001132
+l01 0001445 00001132 0000116b
+l01 0001446 0000116b 00001173
+l01 0001801 00001173 000011a6
+l01 0001803 000011a6 000011b9
+l01 0001806 000011bf 000011d2
+l01 0001807 000011d2 000011f2
+l01 0001809 000011f8 00001218
+l01 0001810 0000121e 00001226
+l01 0001420 00001226 00001298
+l01 0001424 0000129e 000012be
+l01 0001426 000012c4 000012e4
+l01 0001427 000012e4 000012ec
+l01 0002186 000012ec 00001304
+l01 0002187 00001304 0000131f
+l01 0002188 0000131f 00001321
+l01 0002189 00001321 00001387
+l01 0002191 00001387 00001387
+l01 0002193 00001387 000013b1
+l01 0002194 000013b1 000013be
+l01 0002196 000013c4 000013d7
+l01 0002199 000013dd 000013e3
+l01 0002201 000013e9 000013eb
+l01 0002204 000013eb 0000140b
+l01 0002208 00001411 00001417
+l01 0002209 00001417 00001417
+l01 0002211 00001417 0000143b
+l01 0002212 0000143b 00001448
+l01 0002214 0000144e 00001461
+l01 0002217 00001467 0000146d
+l01 0002219 00001473 00001475
+l01 0002222 00001475 00001495
+l01 0002225 0000149b 0000149d
+l01 0002229 0000149d 000014c0
+l01 0002231 000014c6 00001509
+l01 0002232 00001509 00001518
+l01 0002234 0000151e 00001561
+l01 0002235 00001561 00001570
+l01 0002237 00001576 0000158f
+l01 0002238 0000158f 000015c9
+l01 0002240 000015cf 000015d5
+l01 0002241 000015d5 000015f5
+l01 0002246 00001607 00001627
+l01 0002248 0000162d 00001633
+l01 0002251 00001633 00001639
+l01 0002252 00001639 00001639
+l01 0002256 00001639 00001663
+l01 0002260 00001663 000016c4
+l01 0002263 000016ca 000016d0
+l01 0002265 000016d6 000016d8
+l01 0002268 000016d8 000016f8
+l01 0002271 000016f8 000016fe
+l01 0002272 000016fe 000016fe
+l01 0002274 000016fe 00001729
+l01 0002276 00001729 00001813
+l01 0002280 00001819 00001834
+l01 0002281 00001834 0000183a
+l01 0002282 0000183a 00001846
+l01 0002284 0000184c 0000184e
+l01 0002286 0000184e 00001861
+l01 0002287 00001861 00001881
+l01 0002290 00001887 0000188d
+l01 0002293 00001893 000018b3
+l01 0002294 000018b9 000018bb
+l01 0001472 000018bb 000018f5
+l01 0001473 000018f5 000018f7
+l01 0001752 000018f7 00001934
+l01 0001753 00001934 0000193c
+l01 0001468 0000193c 0000195c
+l01 0001469 0000195c 0000195e
+l01 0001725 0000195e 0000199c
+l01 0001726 0000199c 000019a4
+l01 0002153 000019a4 000019bc
+l01 0002155 000019bc 000019ca
+l01 0002159 000019d0 00001a3e
+l01 0002163 00001a44 00001a62
+l01 0002164 00001a62 00001a8b
+l01 0002165 00001a8b 00001aaa
+l01 0002166 00001aaa 00001ad0
+l01 0002170 00001adc 00001ade
+l01 0002172 00001ade 00001b07
+l01 0002174 00001b07 00001b29
+l01 0002176 00001b29 00001b3c
+l01 0002178 00001b42 00001b4a
+l01 0002132 00001b4a 00001b86
+l01 0002133 00001b86 00001b88
+l01 0001487 00001b88 00001bc4
+l01 0001488 00001bc4 00001bcc
+l00 0000158 00001bcc 00001bd4
+l01 0001481 00001bd4 00001bf9
+l01 0001482 00001bf9 00001c12
+l01 0001483 00001c12 00001c44
+l01 0001484 00001c44 00001c4c
+l01 0001686 00001c4c 00001c87
+l01 0001687 00001c87 00001c8f
+l01 0001825 00001c8f 00001cef
+l01 0001829 00001cf5 00001d15
+l01 0001832 00001d1b 00001d40
+l01 0001833 00001d40 00001d42
+l01 0001927 00001d42 00001d76
+l01 0001928 00001d76 00001d86
+l01 0001931 00001d8c 00001daa
+l01 0001933 00001db0 00001dbb
+l01 0001936 00001dd9 00001def
+l01 0001937 00001def 00001dff
+l01 0001940 00001e05 00001e3d
+l01 0001942 00001e63 00001e65
+l01 0001945 00001e65 00001e95
+l01 0001947 00001eb5 00001ebd
+l01 0001949 00001ec3 00001ed9
+l01 0001950 00001ed9 00001ee9
+l01 0001953 00001eef 00001f12
+l01 0001956 00001f18 00001f4a
+l01 0001960 00001f4a 00001f58
+l01 0001964 00001f5e 00001f6e
+l01 0001966 00001f74 00001fa4
+l01 0001967 00001fa4 00001fd6
+l01 0001969 00001fe2 00001fe4
+l01 0001972 00001fe4 00001ff7
+l01 0001977 0000201b 00002023
+l02 0000229 00002023 00002025
+l02 0000231 00002025 00002035
+l02 0000234 0000203b 0000206b
+l02 0000236 00002071 000020a9
+l02 0000237 000020a9 000020bc
+l02 0000241 000020c2 000020ed
+l02 0000243 000020ed 00002120
+l02 0000246 0000212c 00002138
+l02 0000248 0000213e 00002140
+l02 0000251 00002156 00002186
+l02 0000253 0000218c 000021b5
+l02 0000255 000021b5 000021c0
+l02 0000257 000021c0 000021e0
+l02 0000258 000021e0 000021ec
+l02 0000259 000021ec 0000221f
+l02 0000260 0000221f 0000222c
+l02 0000262 00002232 0000224e
+l02 0000263 0000224e 00002267
+l02 0000265 0000226d 0000226f
+l02 0000267 0000226f 0000228b
+l02 0000268 0000228b 0000229e
+l02 0000271 000022a4 000022b0
+l02 0000275 000022b6 000022b8
+l02 0000278 000022ce 000022eb
+l02 0000280 000022eb 00002329
+l02 0000285 0000232f 0000237c
+l02 0000286 0000237c 000023b3
+l02 0000287 000023b3 000023c0
+l02 0000290 000023c6 000023d1
+l02 0000291 000023d1 000023df
+l02 0000295 000023f7 000023f9
+l02 0000297 0000240f 00002442
+l02 0000298 00002442 00002479
+l02 0000299 00002479 000024a6
+l02 0000300 000024a6 000024bb
+l02 0000302 000024c1 0000250d
+l02 0000306 0000251f 00002521
+l02 0000309 00002531 00002541
+l02 0000311 00002547 0000257a
+l02 0000313 0000257a 0000259a
+l02 0000314 0000259a 000025a6
+l02 0000317 000025ac 000025ea
+l02 0000322 000025f0 0000260e
+l02 0000323 0000260e 0000261d
+l02 0000325 00002623 0000262f
+l02 0000328 0000263b 00002679
+l02 0000332 0000267f 0000268f
+l02 0000334 00002695 000026b6
+l02 0000338 000026bc 000026dc
+l02 0000339 000026dc 000026ef
+l02 0000342 000026f5 00002700
+l02 0000343 00002700 00002733
+l02 0000344 00002733 00002741
+l02 0000345 00002741 00002776
+l02 0000347 0000277c 0000277e
+l02 0000352 0000277e 00002789
+l02 0000353 00002789 000027bc
+l02 0000355 000027bc 000027df
+l02 0000357 000027df 000027ed
+l02 0000359 000027ed 00002822
+l02 0000362 00002828 0000282a
+l02 0000365 00002840 0000287b
+l02 0000367 0000287b 0000289b
+l02 0000368 0000289b 000028ce
+l02 0000369 000028ce 000028e0
+l02 0000371 000028e6 000028f9
+l02 0000372 000028f9 0000291c
+l02 0000374 00002922 00002924
+l02 0000376 00002924 000029b8
+l02 0000379 000029be 000029d5
+l02 0000381 000029d5 000029f8
+l02 0000384 000029f8 00002a18
+l02 0000385 00002a18 00002a23
+l02 0000386 00002a23 00002a2f
+l02 0000387 00002a2f 00002a42
+l02 0000391 00002a48 00002a4a
+l02 0000393 00002a4a 00002a58
+l02 0000398 00002a70 00002a78
+l01 0001748 00002a78 00002aa3
+l01 0001749 00002aa3 00002aab
+l01 0001464 00002aab 00002ad3
+l01 0001465 00002ad3 00002adb
+l01 0001920 00002adb 00002b11
+l01 0001921 00002b11 00002b13
+l01 0001841 00002b13 00002b2e
+l01 0001843 00002b2e 00002d38
+l01 0001856 00002d3e 00002d5e
+l01 0001858 00002d64 00002d66
+l01 0001859 00002d66 00002d76
+l01 0001866 00002d7c 00002d9c
+l01 0001869 00002d9c 00002dae
+l01 0001872 00002db4 00002dc4
+l01 0001874 00002dca 00002dea
+l01 0001878 00002df0 00002df2
+l01 0001881 00002e35 00002e55
+l01 0001886 00002e6d 00002e6f
+l01 0001887 00002e6f 00002ead
+l01 0001892 00002eb3 00002ed0
+l01 0001894 00002ed6 00002ef6
+l01 0001898 00002f02 00002f04
+l01 0001899 00002f04 00003084
+l01 0001909 0000308a 000030aa
+l01 0001911 000030b0 000030d0
+l01 0001912 000030d6 000030d8
+l02 0000214 000030d8 000030f5
+l02 0000215 000030f5 00003132
+l02 0000218 00003138 00003153
+l02 0000219 00003153 00003163
+l02 0000221 00003169 00003189
+l02 0000224 00003195 000031b7
+l02 0000225 000031bd 000031c5
+l01 0001690 000031c5 0000326d
+l01 0001693 00003273 00003293
+l01 0001695 00003299 000032b9
+l01 0001696 000032b9 000032c1
+l02 0000453 000032c1 000032ee
+l02 0000454 000032ee 00003310
+l02 0000455 00003310 00003333
+l02 0000456 00003333 00003360
+l02 0000457 00003366 0000336e
+l01 0001721 0000336e 0000339a
+l01 0001722 0000339a 000033a2
+l02 0000460 000033a2 000033cf
+l02 0000461 000033cf 000033f1
+l02 0000462 000033f1 0000341e
+l02 0000464 00003424 00003447
+l02 0000466 0000344d 0000344f
+l02 0000468 0000344f 0000346a
+l02 0000470 00003470 00003478
+l01 0001739 00003478 0000349c
+l01 0001740 0000349c 000034a4
+l01 0002300 000034a4 000034cd
+l01 0002304 000034d3 000034e6
+l01 0002306 000034ec 000034f4
+l01 0001449 000034f4 00003524
+l01 0001450 00003524 0000352c
