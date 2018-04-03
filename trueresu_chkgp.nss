@@ -1,4 +1,4 @@
 int StartingConditional()
 {
-    return (GetGold(GetPCSpeaker()) >= 2400);
+    return (GetGold(GetPCSpeaker()) >= 5000);
 }

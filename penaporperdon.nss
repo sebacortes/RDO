@@ -104,12 +104,15 @@ void ajustarPenaEspera( string pcId, object oPC )
 {
     int instanteActual = getTimeInMinutes();
 
-    // obtener y actualizar instanteUltimoPerdon en la DB
+    // obtener y actualizar instanteUltimoPerdon en la DB    
     string instanteUltimoPerdonRef = instanteUltimoPerdon_FIELD + pcId;
     int instanteUltimoPerdon = GetCampaignInt( "Death", instanteUltimoPerdonRef );
     SetCampaignInt( "Death", instanteUltimoPerdonRef, instanteActual );
+        //Agregamos la perdida del 100% de xp al revivir del fuge
+    SisPremioCombate_quitarPorcentajeXpTransitoria( oPC, 100 );
+    SendMessageToPC( oPC, "Has revivido con el guardián del plano, esto significa que pierdes toda la experiencia acumulada. Si te revive un compañero podrías recuperar parte de la experiencia.");
 
-    string mensaje;
+    string mensaje; 
     if( instanteUltimoPerdon == 0 ) {
         // genera el mensaje para el caso singular de que sea el primer perdon.
         SendMessageToPC(oPC, "Esta es la primera vez que la muerte de tu personaje es perdonada. Por razones tecnicas, sin embargo, se inicializará la frecuencia promedio de perdones como si hubiera muerto seis veces en las últimas seis semanas.");

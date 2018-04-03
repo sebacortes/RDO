@@ -21,10 +21,10 @@
 //#include "traermuerto"
 #include "sp_resu_inc"
 
-const int RESURRECTION_GOLD_COST = 500;
+const int RESURRECTION_GOLD_COST = 2500;
 
 void main()
-{
+{ 
 
 /*
   Spellcast Hook Code

@@ -448,7 +448,9 @@ void ExecDeathActions(object matador, object pjMatado)
     //si lo envian al fugue
     else
     {
-        SisPremioCombate_quitarPorcentajeXpTransitoria( pjMatado, 100 );
+        //Plantiemos otra opción, que no pierda la xp al morir, sino al revivir.
+        //SisPremioCombate_quitarPorcentajeXpTransitoria( pjMatado, 100 );
+
 
         int crearCadaver = !GetLocalInt(pjMatado, RdO_NO_CREAR_CADAVER_AL_MORIR );
 
@@ -551,7 +553,7 @@ void Muerte_onPjEntersArea( object pj ) {
             if( GetIsObjectValid(cadaver) )
                 AssignCommand( cadaver, destruirse() );
             DestroyObject(cuerpoItem);
-            DeleteLocalObject( pj, Muerte_ITEMCADAVER_RELACIONADO );
+            DeleteLocalObject( pj, Muerte_ITEMCADAVER_RELACIONADO ); 
         }
 
         // borrar posicion del cadaver de 'pj' en la DB
@@ -563,12 +565,27 @@ void Muerte_onPjEntersArea( object pj ) {
 
         // aplicar castigos al PJ dependientes de como sea revivido
         int condicionResurreccion = GetLocalInt(pj, Muerte_condicionResurreccion_VN );
+         SendMessageToPC( pj, "DEBUG:1-" ); 
+         SendMessageToPC( pj, IntToString(condicionResurreccion) ); 
+         SendMessageToPC( OBJECT_SELF, "DEBUG:2-" ); 
+         SendMessageToPC( OBJECT_SELF, IntToString(condicionResurreccion) ); 
+         SendMessageToPC( GetFirstPC(), "DEBUG:3-");
+         SendMessageToPC( GetFirstPC(), IntToString(condicionResurreccion) );  
         if( condicionResurreccion == Muerte_REVIVIDO_CON_RAISE_DEAD) {
             ApplyEffectToObject(DURATION_TYPE_INSTANT, EffectDamage(GetCurrentHitPoints(pj)-1), pj);
             AssignCommand( pj, ActionPlayAnimation( ANIMATION_LOOPING_DEAD_BACK, 10.0, 18.0 ) );
+            SisPremioCombate_quitarPorcentajeXpTransitoria( pj, 60 );
+            SendMessageToPC( OBJECT_SELF, "Te han revivido con levantar a los muertos, has perdido gran parte de tu experiencia y te sientes debilitado.");
+
         }
-        if( condicionResurreccion != Muerte_REVIVIDO_CON_TRUERESURRECTION )
+         if( condicionResurreccion == Muerte_REVIVIDO_CON_RESURRECTION ) {
+            SendMessageToPC( OBJECT_SELF, "Te han revivido con una resurreción poderosa, has una pequeña parte experiencia.");
+            SisPremioCombate_quitarPorcentajeXpTransitoria( pj, 25 );
+        }
+        if( condicionResurreccion != Muerte_REVIVIDO_CON_TRUERESURRECTION ) { 
             AssignCommand( pj, consumirTodosLosConjuros() );
+            SendMessageToPC( OBJECT_SELF, "Te han revivido utilizando una resurección verdadera, te sientes restablecido y no has perdido experiencia.");
+         }  
 
     }
 }

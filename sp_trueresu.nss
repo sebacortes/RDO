@@ -11,14 +11,14 @@
 //::   * You can turn off the message by setting the variable
 //::     to -1
 //:://////////////////////////////////////////////
-//:: Created By: dragoncin
+//:: Created By: dragoncin 
 //:: Created On: Aug 06, 2007
 //:://////////////////////////////////////////////
-#include "x2_inc_spellhook"
+#include "x2_inc_spellhook" 
 #include "sp_resu_inc"
 #include "rdo_spell_const"
-
-const int RESURRECTION_GOLD_COST = 2400;
+//aumentado costo 5k para hacerlo mas worth
+const int RESURRECTION_GOLD_COST = 5000;
 
 void main()
 {

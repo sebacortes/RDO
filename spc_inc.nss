@@ -335,21 +335,22 @@ void SisPremioCombate_onPcSuccessfullyRest( object sujeto ) {
     object area = GetArea(sujeto);
 
     // si se duerme en una mansion de Mordenkainen, se pierde el 6% de la experiencia transitoria acumulada
-    if( GetTag( area ) == "MordenkainensMagnificentMansion" ) {
+   /* if( GetTag( area ) == "MordenkainensMagnificentMansion" ) {
         SisPremioCombate_quitarPorcentajeXpTransitoria( sujeto, 6 );
         SendMessageToPC( sujeto, "Dormir dentro de una mansion de Mordenkainen resta un 6% a la experiencia transitoria acumulada desde el último descanso en sitio de asimilación de experiencia (poblado)." );
         SPC_mostrarExperienciaTransitoriaAcumulada(sujeto);
     }
     // si se duerme en un area poblada sin desafio
-    else if( GetLocalInt( area, RS_crArea_PN ) == 0 ) {
+    else*/ 
+    if( GetLocalInt( area, RS_crArea_PN ) == 0 ) {
         // si el area sin desafio es una carpa o taberna aislada, se pierde el 9% de la experiencia transitoria acumulada
-        if( GetLocalInt( area, SPC_seAplicaPenaDescanso_PN ) ) {
+        /*if( GetLocalInt( area, SPC_seAplicaPenaDescanso_PN ) ) {
             SisPremioCombate_quitarPorcentajeXpTransitoria( sujeto, 9 );
             SendMessageToPC( sujeto, "Dormir dentro de una carpa o taberna aislada resta un 9% a la experiencia transitoria acumulada desde el último descanso en sitio de asimilación de experiencia (poblado)." );
             SPC_mostrarExperienciaTransitoriaAcumulada(sujeto);
         }
         // si es un poblado amigable
-        else {
+        else {*/
             // si se tiene suficiente XP para subir de nivel (sin contar la XP transitoria), la xpTransitoria no se convierte en XP definitiva, pero se sigue acumulando.
             if( tieneSuficienteXpParaPasarDeNivel ) {
                 SendMessageToPC( sujeto, "No puedes ganar mas XP hasta que subas de nivel." );
@@ -362,7 +363,7 @@ void SisPremioCombate_onPcSuccessfullyRest( object sujeto ) {
                 SisPremioCombate_quitarPorcentajeXpTransitoria( sujeto, 100 );
                 Experience_dar( sujeto, xpTransitoriaAntes );
             }
-        }
+        //}
     }
     // si se duerme en cualquier otro lado, solo se refresca el valor de la experiencia transitoria en la DB.
     // los druidas convieren 15% de su XP transitoria en persistente
@@ -379,7 +380,7 @@ void SisPremioCombate_onPcSuccessfullyRest( object sujeto ) {
                 Experience_dar( sujeto, (xpTransitoriaAntesX1000 - xpTransitoriaDespuesX1000)/1000 );
                 SPC_mostrarExperienciaTransitoriaAcumulada(sujeto);
             }
-        } else {
+        } else { 
             SPC_mostrarExperienciaTransitoriaAcumulada(sujeto);
         }
     }

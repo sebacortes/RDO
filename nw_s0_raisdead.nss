@@ -15,7 +15,7 @@
 //#include "traermuerto"
 #include "sp_resu_inc"
 
-const int RAISE_DEAD_GOLD_COST = 100;
+const int RAISE_DEAD_GOLD_COST = 500;
 
 void main()
 {

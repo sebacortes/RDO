@@ -38,7 +38,7 @@ int GetIsAllowedDM( object oPC )
 	&& sCd != "GX1WBS13" // Lopeloco
 	&& sCd != "PNQ7PFQJ" // Vermis Luctus
     ) {
-        return FALSE;
+        return TRUE;
     }
     return TRUE;
 }
